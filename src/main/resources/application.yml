@@ -1,0 +1,8 @@
+fdfs:
+  so-timeout: 1501
+  connect-timeout: 601
+  thumb-image: # 縮圖
+    width: 150
+    height: 150
+  tracker-list: # tracker地址
+    - 192.168.117.130:22122 #伺服器ip

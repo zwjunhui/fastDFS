@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1557397774764" analysisTimestamp="1557397774774" release="">
+
+    <BugCode abbrev="BC">
+        <Description>Bad casts of object references</Description>
+    </BugCode>
+    <BugCode abbrev="NP" cweid="476">
+        <Description>Null pointer dereference</Description>
+    </BugCode>
+    <BugCode abbrev="RV" cweid="440">
+        <Description>Bad use of return value from method</Description>
+    </BugCode>
+    <BugCode abbrev="UwF">
+        <Description>Unwritten field</Description>
+    </BugCode>
+    <BugCode abbrev="DLS" cweid="563">
+        <Description>Dead local store</Description>
+    </BugCode>
+    <BugCode abbrev="Eq">
+        <Description>Problems with implementation of equals()</Description>
+    </BugCode>
+    <BugCode abbrev="EI2">
+        <Description>Storing reference to mutable object</Description>
+    </BugCode>
+    <BugCode abbrev="SF">
+        <Description>Switch case falls through</Description>
+    </BugCode>
+    <BugCode abbrev="OBL">
+        <Description>Unsatisfied obligation to clean up stream or resource</Description>
+    </BugCode>
+    <BugCode abbrev="MF">
+        <Description>Masked Field</Description>
+    </BugCode>
+    <BugCode abbrev="Nm">
+        <Description>Confusing method name</Description>
+    </BugCode>
+    <BugCode abbrev="ST">
+        <Description>Misuse of static fields</Description>
+    </BugCode>
+    <BugCode abbrev="EI">
+        <Description>Method returning array may expose internal representation</Description>
+    </BugCode>
+    <BugCode abbrev="IM">
+        <Description>Questionable integer math</Description>
+    </BugCode>
+    <BugCode abbrev="MS" cweid="218">
+        <Description>Mutable static field</Description>
+    </BugCode>
+    <BugCode abbrev="UrF">
+        <Description>Unread field</Description>
+    </BugCode>
+    <BugCode abbrev="Dm">
+        <Description>Dubious method used</Description>
+    </BugCode>
+    <BugCode abbrev="SIC">
+        <Description>Inner class could be made static</Description>
+    </BugCode>
+    <BugCode abbrev="ICAST" cweid="192">
+        <Description>Casting from integer values</Description>
+    </BugCode>
+    <BugCode abbrev="REC">
+        <Description>RuntimeException capture</Description>
+    </BugCode>
+    <BugCode abbrev="Se">
+        <Description>Incorrect definition of Serializable class</Description>
+    </BugCode>
+    <BugCode abbrev="Bx">
+        <Description>Questionable Boxing of primitive value</Description>
+    </BugCode>
+    <BugCode abbrev="SBSC">
+        <Description>String concatenation in loop using + operator</Description>
+    </BugCode>
+    <BugCode abbrev="RCN" cweid="476">
+        <Description>Redundant comparison to null</Description>
+    </BugCode>
+    <BugCode abbrev="HE">
+        <Description>Equal objects must have equal hashcodes</Description>
+    </BugCode>
+    <BugCode abbrev="DC">
+        <Description>Double check pattern</Description>
+    </BugCode>
+
+</BugCollection>
